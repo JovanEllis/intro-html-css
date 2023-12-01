@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 50px;
+    padding: 5px;
+    text-align:left;
+    font-size: 20px;
+}
+.son{
+    border-radius: 50%;
+    border: 4px solid #ddd;
+    width: 550px;
+    height: 400px;
+    
+}
+#link {
+text-align:center
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+    justify-content: center; /* Center the grid horizontally */
+    align-items: center; /* Center the grid vertically */
+    
+}
+
+.grid-item {
+    text-align: center;
+    border: 1px solid #ddd; /* Optional: Add borders for better visibility */
+}
+.logo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: auto; 
+}
+.injured{
+    color: lightseagreen
+}
+.red{
+    color: red
+}
+.subtitle {
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+
+}
+.link {
+    color:khaki;
+    font-size:large
+}
